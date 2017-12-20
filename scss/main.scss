@@ -1,4 +1,8 @@
 @import 'custom';
 @import '../node_modules/bootstrap/scss/bootstrap';
 
-@@import 'nav';
+@import 'nav';
+@import 'schedules';
+@import 'courses';
+@import 'home';
+@import 'teachers';
