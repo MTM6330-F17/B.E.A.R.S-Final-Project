@@ -4,6 +4,19 @@ $off-white: #feffff;
 // Override bootstrap default
 $body-bg: $off-white;
 
-// Custom Variables
+/* -------------- ADD CUSTOM VARIABLES BELOW: -------------- */
+// These are common colors, fonts, or font sizes (and anything that is to be a consistent style throughout the website)
+// INSTRUCTIONS: pick a variable name (i.e $font-size), then put the variable value after (i.e 15px).
+// You can use the variable name ($font-size) in your stylesheet when coding, rather than saying the value each time you need it (15px)
+// Only use variables if they are being repeated more than once throughout your code.
+// The point of this is to be able to easily change the value of the variable if needed
 
-$nav-font: #F7F9F9;
+// Font color for nav
+$nav-font-color: #F7F9F9;
+
+
+
+
+
+
+/* ----------- End custom variables ----------- */
