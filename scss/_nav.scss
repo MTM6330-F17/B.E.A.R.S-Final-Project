@@ -1,0 +1,19 @@
+.navbar-nav{
+  margin: 0 auto;
+  margin-right: 60px;
+  font-size: 17px;
+}
+
+/* navigation background color */
+.bg-light {
+    background-color: #30303A!important;
+}
+
+/* navigation font colors */
+.nav-link{
+  color: $nav-font!important;
+}
+
+.navbar-brand{
+  color: $nav-font!important;
+}
