@@ -5554,10 +5554,6 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
-<<<<<<< HEAD
-p {
-  color: blue; }
-=======
 .navbar-nav {
   margin: 0 auto;
   margin-right: 60px;
@@ -5593,4 +5589,31 @@ body {
   /* Vertically center the text there */
   background-color: #f5f5f5;
   font-size: 14px; }
->>>>>>> master
+
+body {
+  background-color: grey; }
+
+h1 {
+  color: white;
+  font-size: 3em;
+  margin-top: 25px;
+  text-align: center;
+  padding-bottom: 20px; }
+
+p {
+  color: white;
+  padding: 20px;
+  font-size: 1.5em; }
+
+.contentMotion {
+  background-color: #30303a;
+  width: 65%;
+  border-radius: 3px;
+  margin: auto; }
+
+.image {
+  margin: auto;
+  vertical-align: middle;
+  display: block;
+  margin-top: 10px;
+  padding-bottom: 30px; }
