@@ -5591,12 +5591,22 @@ body {
   font-size: 14px; }
 
 .teacherH2 {
-  margin: 5%; }
+  text-align: center;
+  color: #006341;
+  letter-spacing: 4px;
+  font-size: 50px;
+  margin-top: 5%; }
+
+.teacherH4 {
+  text-align: center; }
 
 .box_1, .box_2, .box_3 {
-  background-color: #30303A;
+  background-color: #F5F5F5;
   margin-top: 3%;
   height: 70%; }
+
+.box_3 {
+  margin-bottom: 7%; }
 
 .teacher {
   margin: 5%;
@@ -5606,14 +5616,16 @@ body {
   width: 20%;
   border-radius: 50%;
   margin: 2%;
-  float: left; }
+  float: left;
+  box-shadow: 5px 5px 10px grey;
+  margin-right: 6%; }
 
 .email a {
   color: #006341; }
 
 .tparagraph {
   font-size: 20px;
-  color: #FFFFFF; }
+  color: #30303A; }
 
 .tNames {
-  color: #FFFFFF; }
+  color: #30303A; }
