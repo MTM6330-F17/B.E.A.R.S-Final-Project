@@ -5599,7 +5599,8 @@ body {
   height: 70%; }
 
 .teacher {
-  margin: 5%; }
+  margin: 5%;
+  padding-top: 3%; }
 
 .teacherIMG {
   width: 20%;
