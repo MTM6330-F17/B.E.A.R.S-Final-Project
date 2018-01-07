@@ -26,12 +26,12 @@
 }
 
 .home-context {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .success-factor {
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -46,6 +46,8 @@
 .fees {
   text-align: center;
   margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .program-fees {
@@ -56,4 +58,12 @@
 .compulsory {
   text-align: center;
   margin-top: 5%;
+}
+
+.box-2 {
+  background-color: #f5f5f5;
+  width: 97%;
+  height: 100%;
+  margin: 20px;
+  float: left;
 }
