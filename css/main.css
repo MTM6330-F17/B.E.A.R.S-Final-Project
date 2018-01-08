@@ -5590,14 +5590,14 @@ body {
   background-color: #f5f5f5;
   font-size: 14px; }
 
-.teacherH2 {
+.teacherH1 {
   text-align: center;
   color: #006341;
   letter-spacing: 4px;
   font-size: 50px;
   margin-top: 5%; }
 
-.teacherH4 {
+.teacherH5 {
   text-align: center; }
 
 .box_1, .box_2, .box_3 {
