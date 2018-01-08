@@ -5592,9 +5592,10 @@ body {
 
 .cph1 {
   color: #006341;
-  font-size: 3em;
-  margin-top: 25px;
-  text-align: center; }
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 48px;
+  margin-top: 5%; }
 
 .cph2 {
   color: #006341;
