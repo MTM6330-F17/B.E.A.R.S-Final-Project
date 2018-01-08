@@ -5606,20 +5606,13 @@ body {
   height: 100%;
   margin: 20px;
   float: left; }
-
-.litle-logo {
-  height: 20%;
-  width: 10%;
-  margin: 20px;
-  float: left; }
-
-.home-context {
-  margin-top: 40px; }
-
-.success-factor {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  text-align: center; }
+  .home-body img {
+    height: 20%;
+    width: 10%;
+    margin: 20px;
+    float: left; }
+  .home-body p {
+    margin-top: 40px; }
 
 .box1 {
   background-color: #f5f5f5;
@@ -5628,20 +5621,17 @@ body {
   margin: 20px;
   margin-bottom: 70px;
   float: left; }
-
-.fees {
-  text-align: center;
-  margin: 20px;
-  margin-top: 40px;
-  margin-bottom: 40px; }
-
-.program-fees {
-  text-align: center;
-  margin-top: 5%; }
-
-.compulsory {
-  text-align: center;
-  margin-top: 5%; }
+  .box1 div {
+    text-align: center;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    .box1 div .program-fees {
+      text-align: center;
+      margin-top: 5%; }
+    .box1 div .compulsory {
+      text-align: center;
+      margin-top: 5%; }
 
 .box-2 {
   background-color: #f5f5f5;
@@ -5649,3 +5639,10 @@ body {
   height: 100%;
   margin: 20px;
   float: left; }
+  .box-2 img {
+    width: 94%;
+    margin: 40px; }
+  .box-2 div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center; }
