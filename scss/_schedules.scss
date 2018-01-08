@@ -1,133 +1,8 @@
-a,
-abbr,
-acronym,
-address,
-applet,
-article,
-aside,
-audio,
-b,
-big,
-blockquote,
-body,
-canvas,
-caption,
-center,
-cite,
-code,
-dd,
-del,
-details,
-dfn,
-div,
-dl,
-dt,
-em,
-embed,
-fieldset,
-figcaption,
-figure,
-footer,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-header,
-hgroup,
-html,
-i,
-iframe,
-img,
-ins,
-kbd,
-label,
-legend,
-li,
-mark,
-menu,
-nav,
-object,
-ol,
-output,
-p,
-pre,
-q,
-ruby,
-s,
-samp,
-section,
-small,
-span,
-strike,
-strong,
-sub,
-summary,
-sup,
-table,
-tbody,
-td,
-tfoot,
-th,
-thead,
-time,
-tr,
-tt,
-u,
-ul,
-var,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  font-family: arial;
+p {
+
+
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:after,
-blockquote:before,
-q:after,
-q:before {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
 /*-------SASS CODE-------*/
 
@@ -138,6 +13,12 @@ $table-box-height: 60px;
 $item-center: auto;
 
 /*------- NEW CSS -------*/
+
+.schedulescreen{
+    font-family: arial;
+    line-height: 1;
+
+}
 
 .tempheader {
   width: 100%;
@@ -167,7 +48,7 @@ $item-center: auto;
 .spacer {
   width: 100%;
   height: 20px;
-  margin-top: 60px;
+  margin-top: 90px;
 }
 
 .sectiontable {
@@ -258,7 +139,7 @@ $item-center: auto;
 
 .row9 div {
   width: $table-box-width;
-  height: $table-box-heightx;
+  height: $table-box-height;
   float: left;
 }
 
@@ -326,6 +207,7 @@ $item-center: auto;
   padding-left: 2px;
   color: white;
   font-size: 5px;
+  margin: 0;
 }
 
 .slot13,
@@ -459,7 +341,7 @@ $item-center: auto;
   .spacer {
     width: 100%;
     height: 20px;
-    margin-top: 30px;
+    margin-top: 70px;
   }
 
   .section {
@@ -585,6 +467,7 @@ $item-center: auto;
     padding-left: 2px;
     color: white;
     font-size: 8px;
+    margin: 0;
   }
 }
 @media screen and (min-width: 60rem) {
@@ -620,7 +503,7 @@ $item-center: auto;
   .spacer {
     width: 100%;
     height: 20px;
-    margin-top: 70px;
+    margin-top: 100px;
   }
 
   .section {
@@ -748,5 +631,6 @@ $item-center: auto;
     padding-left: 2px;
     color: white;
     font-size: 8px;
+    margin: 0;
   }
 }
