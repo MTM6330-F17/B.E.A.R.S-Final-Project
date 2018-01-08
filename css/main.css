@@ -5569,7 +5569,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 /* adding green color on nav when hovering */
 a.nav-link:hover, a.navbar-brand:hover {
-  color: #006341 !important; }
+  color: lightgrey !important; }
 
 /*  ------------------------ Sticky footer styles -------------------------- */
 html {
