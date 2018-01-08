@@ -10,12 +10,12 @@
 }
 
 /* navigation font colors */
-.nav-link{
-  color: $nav-font-color!important;
-}
+.nav-link , .navbar-brand{
+  color: $nav-font-color!important;}
 
-.navbar-brand{
-  color: $nav-font-color!important;
+/* adding green color on nav when hovering */
+a.nav-link:hover , a.navbar-brand:hover{
+  color: #006341!important;
 }
 
 /*  ------------------------ Sticky footer styles -------------------------- */
