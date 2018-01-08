@@ -1,0 +1,752 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: arial;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*-------SASS CODE-------*/
+
+$primary-gray: #30303A;
+$primary-green: #006341;
+$table-box-width: 56.25px;
+$table-box-height: 60px;
+$item-center: auto;
+
+/*------- NEW CSS -------*/
+
+.tempheader {
+  width: 100%;
+  height: 60px;
+  background-color: grey;
+}
+
+.headertext {
+  width: 100%;
+  height: 100px;
+}
+
+.headertext1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 30px;
+  padding-top: 40px;
+  color: $primary-green;
+}
+
+.headertext2 {
+  font-size: 15px;
+  margin-left: 40px;
+  font-weight: bold;
+}
+/* --------- SECTION 1 ----------*/
+.spacer {
+  width: 100%;
+  height: 20px;
+  margin-top: 60px;
+}
+
+.sectiontable {
+  width: 95%;
+  height: 800px;
+  background-color: lightgrey;
+  border: 0 solid black;
+  border-radius: 20px;
+  margin: $item-center;
+}
+
+.sectiontablenumber p {
+  font-weight: bold;
+}
+
+.sectiondivider {
+  width: 100%;
+  height: 830px;
+  float: left;
+}
+
+.section {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.programdisclaimer {
+  font-size: 12px;
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.rowtime div {
+  width: $table-box-width;
+  height: 30px;
+  float: left;
+}
+
+.row1 div {
+  width: $table-box-width;
+  height: $table-box-height;
+  float: left;
+}
+
+.row2 div {
+  width: $table-box-width;
+  height: $table-box-height;
+  float: left;
+}
+
+.row3 div {
+  width: $table-box-width;
+  height: $table-box-height;
+  float: left;
+}
+
+.row4 div {
+  width: $table-box-width;
+  height: $table-box-height;
+  float: left;
+}
+
+.row5 div {
+  width: $table-box-width;
+  height: $table-box-height;
+  float: left;
+}
+
+.row6 div {
+  width: $table-box-width;
+  height: $table-box-height;
+  float: left;
+}
+
+.row7 div {
+  width: $table-box-width;
+  height: $table-box-height;
+  float: left;
+}
+
+.row8 div {
+  width: $table-box-width;
+  height: $table-box-height;
+  float: left;
+}
+
+.row9 div {
+  width: $table-box-width;
+  height: $table-box-heightx;
+  float: left;
+}
+
+.row10 div {
+  width: $table-box-width;
+  height: $table-box-height;
+  float: left;
+}
+
+.row11 div {
+  width: $table-box-width;
+  height: $table-box-height;
+  float: left;
+}
+
+.row12 div {
+  width: $table-box-width;
+  height: $table-box-height;
+  float: left;
+}
+
+.slot1,
+.slot17,
+.slot2,
+.slot25,
+.slot3,
+.slot33,
+.slot4,
+.slot41,
+.slot49,
+.slot5,
+.slot57,
+.slot6,
+.slot65,
+.slot7,
+.slot73,
+.slot8,
+.slot81,
+.slot89,
+.slot9,
+.slot97 {
+  text-align: center;
+}
+
+.dateslot,
+.timeslot {
+  font-size: 8px;
+}
+
+.dateslot {
+  margin-top: 10px;
+}
+
+.weekdaytable {
+  margin-top: 20px;
+  width: 450px;
+  margin: $item-center;
+}
+
+.courseaddress,
+.courseclass,
+.courseprof,
+.roomnumber {
+  padding-top: 3px;
+  padding-left: 2px;
+  color: white;
+  font-size: 5px;
+}
+
+.slot13,
+.slot21,
+.slot213,
+.slot215,
+.slot221,
+.slot223,
+.slot227,
+.slot229,
+.slot231,
+.slot235,
+.slot245,
+.slot251,
+.slot253,
+.slot259,
+.slot261,
+.slot267,
+.slot27,
+.slot29,
+.slot3101,
+.slot323,
+.slot331,
+.slot339,
+.slot345,
+.slot347,
+.slot35,
+.slot353,
+.slot385,
+.slot393,
+.slot4101,
+.slot445,
+.slot45,
+.slot451,
+.slot453,
+.slot459,
+.slot467,
+.slot475,
+.slot485,
+.slot493,
+.slot51,
+.slot523,
+.slot53,
+.slot531,
+.slot539,
+.slot551,
+.slot555,
+.slot559,
+.slot563,
+.slot567,
+.slot571,
+.slot575,
+.slot59,
+.slot61,
+.slot621,
+.slot629,
+.slot637,
+.slot645,
+.slot655,
+.slot663,
+.slot67,
+.slot671 {
+  background-color: $primary-green;
+}
+
+.slot100,
+.slot14,
+.slot2100,
+.slot22,
+.slot230,
+.slot238,
+.slot284,
+.slot292,
+.slot312,
+.slot320,
+.slot328,
+.slot330,
+.slot338,
+.slot352,
+.slot360,
+.slot368,
+.slot412,
+.slot420,
+.slot428,
+.slot44,
+.slot446,
+.slot452,
+.slot454,
+.slot460,
+.slot462,
+.slot468,
+.slot5102,
+.slot52,
+.slot544,
+.slot546,
+.slot552,
+.slot554,
+.slot586,
+.slot594,
+.slot60,
+.slot6102,
+.slot644,
+.slot652,
+.slot662,
+.slot670,
+.slot678,
+.slot68,
+.slot686,
+.slot694,
+.slot84,
+.slot92 {
+  background-color: $primary-gray;
+}
+@media screen and (min-width: 35rem) {
+  .sectiontable {
+    width: 570px;
+    height: 830px;
+    background-color: lightgrey;
+    border: 0 solid black;
+    border-radius: 20px;
+    margin: $item-center;
+  }
+
+  .sectiondivider {
+    width: 95%;
+    height: 870px;
+    float: none;
+    margin: $item-center;
+  }
+
+  .spacer {
+    width: 100%;
+    height: 20px;
+    margin-top: 30px;
+  }
+
+  .section {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+  }
+
+  .programdisclaimer {
+    font-size: 12px;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .rowtime div {
+    width: 70px;
+    height: 40px;
+    float: left;
+  }
+
+  .row1 div {
+    width: 70px;
+    height: 60px;
+    float: left;
+  }
+
+  .row2 div {
+    width: 70px;
+    height: 60px;
+    float: left;
+  }
+
+  .row3 div {
+    width: 70px;
+    height: 60px;
+    float: left;
+  }
+
+  .row4 div {
+    width: 70px;
+    height: 60px;
+    float: left;
+  }
+
+  .row5 div {
+    width: 70px;
+    height: 60px;
+    float: left;
+  }
+
+  .row6 div {
+    width: 70px;
+    height: 60px;
+    float: left;
+  }
+
+  .row7 div {
+    width: 70px;
+    height: 60px;
+    float: left;
+  }
+
+  .row8 div {
+    width: 70px;
+    height: 60px;
+    float: left;
+  }
+
+  .row9 div {
+    width: 70px;
+    height: 60px;
+    float: left;
+  }
+
+  .row10 div {
+    width: 70px;
+    height: 60px;
+    float: left;
+  }
+
+  .row11 div {
+    width: 70px;
+    height: 60px;
+    float: left;
+  }
+
+  .row12 div {
+    width: 70px;
+    height: 60px;
+    float: left;
+  }
+
+  .dateslot,
+  .timeslot {
+    font-size: 15px;
+  }
+
+  .dateslot {
+    margin-top: 10px;
+  }
+
+  .timetableoutline1 {
+    font-size: 17px;
+    margin-top: 12px;
+  }
+
+  .timetableoutline2 {
+    font-size: 14px;
+  }
+
+  .weekdaytable {
+    margin-top: 20px;
+    width: 560px;
+    margin: $item-center;
+  }
+
+  .courseaddress,
+  .courseclass,
+  .courseprof,
+  .roomnumber {
+    padding-top: 3px;
+    padding-left: 2px;
+    color: white;
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 60rem) {
+  .headertext1 {
+    text-align: center;
+    color: $primary-green;
+    letter-spacing: 4px;
+    font-size: 50px;
+  }
+
+  .headertext2 {
+    text-align: center;
+    color: $primary-gray;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .sectiontable {
+    width: 670px;
+    height: 830px;
+    background-color: lightgrey;
+    border: 0 solid black;
+    border-radius: 20px;
+    margin: $item-center;
+  }
+
+  .sectiondivider {
+    width: 50%;
+    height: 870px;
+    float: left;
+  }
+
+  .spacer {
+    width: 100%;
+    height: 20px;
+    margin-top: 70px;
+  }
+
+  .section {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+  }
+
+  .programdisclaimer {
+    font-size: 12px;
+    width: 40%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    padding-left: 30px;
+  }
+
+  .rowtime div {
+    width: 80px;
+    height: 40px;
+    float: left;
+  }
+
+  .row1 div {
+    width: 80px;
+    height: 60px;
+    float: left;
+  }
+
+  .row2 div {
+    width: 80px;
+    height: 60px;
+    float: left;
+  }
+
+  .row3 div {
+    width: 80px;
+    height: 60px;
+    float: left;
+  }
+
+  .row4 div {
+    width: 80px;
+    height: 60px;
+    float: left;
+  }
+
+  .row5 div {
+    width: 80px;
+    height: 60px;
+    float: left;
+  }
+
+  .row6 div {
+    width: 80px;
+    height: 60px;
+    float: left;
+  }
+
+  .row7 div {
+    width: 80px;
+    height: 60px;
+    float: left;
+  }
+
+  .row8 div {
+    width: 80px;
+    height: 60px;
+    float: left;
+  }
+
+  .row9 div {
+    width: 80px;
+    height: 60px;
+    float: left;
+  }
+
+  .row10 div {
+    width: 80px;
+    height: 60px;
+    float: left;
+  }
+
+  .row11 div {
+    width: 80px;
+    height: 60px;
+    float: left;
+  }
+
+  .row12 div {
+    width: 80px;
+    height: 60px;
+    float: left;
+  }
+
+  .dateslot,
+  .timeslot {
+    font-size: 15px;
+  }
+
+  .dateslot {
+    margin-top: 10px;
+  }
+
+  .timetableoutline1 {
+    font-size: 17px;
+    margin-top: 12px;
+  }
+
+  .timetableoutline2 {
+    font-size: 14px;
+  }
+
+  .weekdaytable {
+    margin-top: 20px;
+    width: 650px;
+    margin: $item-center;
+  }
+
+  .courseaddress,
+  .courseclass,
+  .courseprof,
+  .roomnumber {
+    padding-top: 3px;
+    padding-left: 2px;
+    color: white;
+    font-size: 8px;
+  }
+}
