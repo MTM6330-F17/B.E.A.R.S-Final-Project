@@ -5750,6 +5750,8 @@ body {
     .box_1 div p, .box_2 div p, .box_3 div p {
       font-size: 20px;
       color: #30303A; }
+  .box_1 a, .box_2 a, .box_3 a {
+    color: #006341; }
 
 /* Adding margin between last div and footer */
 .box_3 {
@@ -5758,6 +5760,10 @@ body {
 /* Changing Email Color*/
 .email a {
   color: #006341; }
+
+/* Styling for modal pop up */
+.modal a {
+  color: #006341 !important; }
 
 /* Outer */
 .popup {
