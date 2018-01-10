@@ -5672,6 +5672,7 @@ body {
   height: 20px;
   float: left; }
 
+/* Using sass Nesting Below */
 .home-body {
   background-color: #f5f5f5;
   width: 97%;
@@ -5686,6 +5687,7 @@ body {
   .home-body p {
     margin-top: 40px; }
 
+/* fees and expenses*/
 .box1 {
   background-color: #f5f5f5;
   height: 100%;
@@ -5705,6 +5707,7 @@ body {
       text-align: center;
       margin-top: 5%; }
 
+/* success factors */
 .box-2 {
   background-color: #f5f5f5;
   width: 97%;
@@ -5815,7 +5818,7 @@ body {
   background: black;
   text-decoration: none; }
 
-/*-------SASS CODE-------*/
+/*-------SASS CODE VARIABLES-------*/
 /*------- NEW CSS -------*/
 .schedulescreen {
   font-family: arial;
@@ -5831,15 +5834,17 @@ body {
   height: 100px; }
 
 .headertext1 {
-  font-size: 25px;
+  text-align: center;
+  color: #006341;
+  letter-spacing: 4px;
+  font-size: 50px;
   font-weight: bold;
-  margin-left: 30px;
-  padding-top: 40px;
-  color: #006341; }
+  margin-top: 5%; }
 
 .headertext2 {
-  font-size: 15px;
-  margin-left: 40px;
+  text-align: center;
+  color: #30303A;
+  font-size: 20px;
   font-weight: bold; }
 
 /* --------- SECTION 1 ----------*/
