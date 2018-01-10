@@ -1,10 +1,4 @@
-p {
-
-
-}
-
-
-/*-------SASS CODE-------*/
+/*-------SASS CODE VARIABLES-------*/
 
 $primary-gray: #30303A;
 $primary-green: #006341;
@@ -32,16 +26,18 @@ $item-center: auto;
 }
 
 .headertext1 {
-  font-size: 25px;
-  font-weight: bold;
-  margin-left: 30px;
-  padding-top: 40px;
+  text-align: center;
   color: $primary-green;
+  letter-spacing: 4px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 5%;
 }
 
 .headertext2 {
-  font-size: 15px;
-  margin-left: 40px;
+  text-align: center;
+  color: $primary-gray;
+  font-size: 20px;
   font-weight: bold;
 }
 /* --------- SECTION 1 ----------*/
